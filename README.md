@@ -13,7 +13,9 @@ Firstly, I would have liked to take all the tweets between the first and the las
 ## Scrapping 
 
 I used the twitter API (https://developer.twitter.com/en/portal/dashboard) and tweepy to get the 30k Tweets.
-You need to get your API key and token thanks to it :
+If you want do the same : 
+
+You need to create your own project on the developer twitter portal and get your API keys and tokens :
 
 `API_KEY=""`
 
@@ -24,4 +26,3 @@ You need to get your API key and token thanks to it :
 `ACCESS_TOKEN=""`
 
 `ACCESS_TOKEN_SECRET=""`
-
