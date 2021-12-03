@@ -41,6 +41,7 @@ query = '(arcane OR jinx OR vi OR viktor OR jayce OR silco) -is:retweet  lang:en
 I suggest you to take a look to the links to help you to undestand how use the query : 
 
 https://docs.tweepy.org/en/stable/client.html#search-tweets
+
 https://dev.to/twitterdev/a-comprehensive-guide-for-using-the-twitter-api-v2-using-tweepy-in-python-15d9
 
 Have fun :)
