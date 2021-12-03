@@ -14,8 +14,8 @@ Firstly, I would scrap all the tweets between the first and the last episode but
 I used the twitter API (https://developer.twitter.com/en/portal/dashboard) and tweepy to get the 30k Tweets.
 You need to get your API key and token thanks to it :
 
-`* API_KEY=""
-API_KEY_SECRET=""
-BEARER_TOKEN=""
-ACCESS_TOKEN=""
-ACCESS_TOKEN_SECRET=""`
+`* API_KEY=""`
+`*API_KEY_SECRET=""`
+`*BEARER_TOKEN=""`
+`*ACCESS_TOKEN=""`
+`*ACCESS_TOKEN_SECRET=""`
