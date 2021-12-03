@@ -19,8 +19,6 @@ If you want to use this project :
 
  1 - You need to create your own project on the developer twitter portal and get your API keys and tokens :
 
-        `API_KEY=""`
-
         `API_KEY_SECRET=""`
 
         `BEARER_TOKEN=""`
@@ -32,5 +30,20 @@ If you want to use this project :
 2 - Put your key and token info in the "bot_info.txt" file
 
 3 - You can now configure your own query with the "twitter_bot.py" file 
+
+` # Replace with your own search query
+    # keywords : arcane, jinx, vi, victor, jayce, silco
+    # -is retweet = For no RT in your result
+    # lang : en --> Tweet in english only
+    
+query = '(arcane OR jinx OR vi OR viktor OR jayce OR silco) -is:retweet  lang:en '`
+
+I suggest you to take a look to the links to help you to undestand how use the query : 
+
+https://docs.tweepy.org/en/stable/client.html#search-tweets
+https://dev.to/twitterdev/a-comprehensive-guide-for-using-the-twitter-api-v2-using-tweepy-in-python-15d9
+
+Have fun :)
+
 
 
