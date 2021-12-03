@@ -15,6 +15,10 @@ b_token = get_info_twitter("BEARER_TOKEN")
 client = tweepy.Client(bearer_token=b_token)
 
 # Replace with your own search query
+    # keywords : arcane, jinx, vi, victor, jayce, silco
+    # -is retweet = For no RT in your result
+    # lang : en --> Tweet in english only
+    
 query = '(arcane OR jinx OR vi OR viktor OR jayce OR silco) -is:retweet  lang:en '
 
 text_list = []
