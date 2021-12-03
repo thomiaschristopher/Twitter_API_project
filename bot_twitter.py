@@ -2,7 +2,7 @@ import tweepy
 import pandas as pd
 from tqdm import tqdm
 
-
+# Get the token information from the txt file
 def get_info_twitter(credential):
     cred_dict = {}
     with open("C:\\Users\\chris\\PycharmProjects\\Webscarping\\bot_info.txt") as f:
