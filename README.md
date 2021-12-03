@@ -29,4 +29,5 @@ If you want to use this project :
 
         `ACCESS_TOKEN_SECRET=""`
 
-2 - Put your key and token info in the 
+2 - Put your key and token info in the "bot_info.txt" file
+3 - You can now configure your own query with the "twiiter
