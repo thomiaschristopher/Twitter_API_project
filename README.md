@@ -13,7 +13,6 @@ Firstly, I would have liked to take all the tweets between the first and the las
 ## Scrapping 
 
 I used the twitter API (https://developer.twitter.com/en/portal/dashboard) and tweepy to get the 30k Tweets.
-If you want do the same : 
 
 If you want to use this project : 
 
