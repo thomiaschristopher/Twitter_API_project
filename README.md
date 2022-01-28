@@ -30,7 +30,7 @@ If you want to use this project :
 
 3 - You can now configure your own query with the "twitter_bot.py" file 
 
-`    # Replace with your own search query 
+   ` # Replace with your own search query 
 
      # keywords : arcane, jinx, vi, victor, jayce, silco 
      
