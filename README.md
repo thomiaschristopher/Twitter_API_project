@@ -30,12 +30,12 @@ If you want to use this project :
 
 3 - You can now configure your own query with the "twitter_bot.py" file 
 
-` # Replace with your own search query
+`   # Replace with your own search query
     # keywords : arcane, jinx, vi, victor, jayce, silco
     # -is retweet = For no RT in your result
     # lang : en --> Tweet in english only
     
-query = '(arcane OR jinx OR vi OR viktor OR jayce OR silco) -is:retweet  lang:en '`
+query = '(arcane OR jinx OR vi OR viktor OR jayce OR silco) -is:retweet  lang:en ' `
 
 I suggest you to take a look to the links to help you to undestand how use the query : 
 
