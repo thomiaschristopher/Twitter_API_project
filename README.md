@@ -5,7 +5,7 @@
 # Description
 
 I discovered in a Kaggle topic the "sentiment analysis" about the vaccination (https://www.kaggle.com/gpreda/explore-vaccines-tweets/notebook)
-and I decided do the same thing on the Netflix's serie Arcane.
+and I decided to do the same thing on the Netflix's serie Arcane.
 
 Firstly, I would have liked to take all the tweets between the first and the last episode but finally I did the analysis on the last 30k tweets on the 02/12/2021.
 (Twitter API was asking much informations to get the elevation it needed to the first case, so I gived up and go to the second case).
