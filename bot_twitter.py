@@ -5,7 +5,7 @@ from tqdm import tqdm
 # Get the token information from the txt file
 def get_info_twitter(credential):
     cred_dict = {}
-    with open("C:\\Users\\chris\\PycharmProjects\\Webscarping\\bot_info.txt") as f:
+    with open("bot_info.txt") as f:
         for line in f.read().split('\n'):
             cred_dict[line.split("=")[0]] = line.split("=")[1]
         return cred_dict[credential]
@@ -60,4 +60,4 @@ arcane = pd.DataFrame(list(zip(text_list_pp, id_list, created_at_list, geo_list,
 print(arcane)
 
 # Create the CSV result
-arcane.to_csv(r"C:\Users\chris\PycharmProjects\Webscarping\arcane.csv")
+arcane.to_csv(r"arcane.csv")
